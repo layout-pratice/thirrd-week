@@ -1,0 +1,838 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ============================================================================ */
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+  
+/* ==================================== */
+body{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: 'Noto Sans';
+}
+a{
+    text-decoration: none;
+}
+.header a,.footer a {
+    color: white;
+}
+.advantage,.contactUs{
+    background: #AA06010D;
+}
+.header,.footer{
+    background: #AA0601;
+    font-weight: normal;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+ 
+}
+.twoside-padding{
+    padding-left: 39px;
+    padding-right: 39px;
+}
+.mb-18{
+    margin-bottom: 18px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mr-12{
+    margin-right: 12px;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.mr-38{
+    margin-right: 38px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+
+.df_jcsb_aic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fz-64_lh-96{
+    font-size: 64px;
+    line-height: 96px;
+}
+.primary-color{
+    color: #650300;
+}
+.secondary-color{
+    color: white;
+}
+/* ===================================================*/
+/* header */
+.logo a{
+    background: url(/img/logo.png) no-repeat;
+    width: 80px;
+    height: 49px;
+    background-size: contain;
+	display:block;
+	text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.header{
+    padding: 30px 56px 30px 88px;
+    text-align: center;
+
+}
+
+.headerMenu a{
+    padding: 0 32px;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+/* 首頁 */
+.h2{
+    font-size: 48px;   
+    line-height: 72px;   
+    text-align: center;
+    padding: 60px 0 64px;
+
+}
+
+/* banner */
+.banner{
+    background: url(/img/banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 840px;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    align-items:flex-end;
+    justify-content: center;
+}
+.slogan{
+    font-size: 36px;
+    line-height: 54px;
+}
+/* 優點 */
+.advantage{
+    padding: 0 85px 80px;
+}
+.advantageImg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.advantageList{
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.advantageList li{
+    width: 18.74%;
+}
+.advantageList h3{
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    color: #650300;
+
+}
+/* 經典系列鏡框 */
+.classicalTemple{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    color: #AA0601;
+    font-size: 48px;   
+    line-height: 72px;
+    font-family: Roboto;
+    font-style: italic;
+    
+}
+.classical-img{
+    max-width: 57.21%;
+    
+}
+.classicalTemple:nth-child(2){
+    flex-direction: row-reverse;
+}
+/* 聯名設計鏡框 */
+.cowork{
+    background: url(/img/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 743px;
+    
+}
+.coworkContent_left,.coworkContent_right{
+    width: 48.65%;
+    height: 472px;
+}
+.coworkContent_left{
+    background: url(/img/product-8.png)  no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.coworkContent_right{
+    background: url(/img/product-9.png)  no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cocoworkContent_p{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 72px;
+    line-height: 108px;
+    color: #AA0601;
+}
+/* 顧客推薦 */
+.customer_recommand{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.recommand-mb{
+    margin-bottom: 80px;
+}
+.recommand{
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+    font-family: Roboto;
+    font-weight: normal;
+}
+.recommand li{
+    width: 22.97%;
+}
+.recommand li img{
+    width: 100%;
+
+}
+.recommand_p{
+    border: 1px solid #DEE2E6;
+    padding: 14px;
+}
+.recommand_p h3{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+.recommand_p :nth-child(2){
+    margin-bottom: 10px;
+   
+}
+.recommand_p :last-child{
+    color: #707070;
+    font-size: 14px;
+    line-height: 21px;
+}
+/* 聯絡我們 */
+.contactUs p{ 
+    width: 65.76%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+.contactUs_form {
+    width: 65.76%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+}
+.contactUs_form input{
+    
+    margin-bottom: 16px;
+    background: rgba(255, 255, 255, 0);
+
+}
+.input_h{
+    height: 50px;
+}
+.contactUs_form textarea{
+    height: 136px;
+    margin-bottom: 16px;
+    background: rgba(255, 255, 255, 0);
+
+}
+.formPrivacy label{
+    line-height: 24px;
+}
+.contactUs_form span{
+    margin-top: 26px;
+    text-align: center;
+}
+.contactUs_form span input{
+    width: 48%;
+    height: 54px;
+    background: #AA0601;
+    border: none;
+
+}
+.contactUs_form span input:focus{
+    background:  white;
+    color: #AA0601;
+    outline:1px solid  #AA0601;
+
+}
+
+/* footer */
+.footer{
+    padding: 0 39px;
+}
+.footerContent{
+    align-items: flex-start;
+}
+.sns{
+    width: 18.74%;
+    padding-top: 48px;
+
+}
+.footerMenu{
+    margin-bottom: 36px;
+}
+.contactAndMenu{
+    padding-top: 48px;
+
+}
+.contact_inf{
+    font-size: 36px;
+    line-height: 54px;
+}
+.contact_inf img{
+    width: 48px;
+    height: 48px;
+}
+.service{
+    padding: 24px 0;
+    border-top: 1px solid white;
+}
+.service_content{
+    width: 89.37%;
+}
+.service_content p{
+width: 50%;
+}
+.service_law{
+width: 15.12%; 
+    font-size: 14px;
+    line-height: 21px;
+}
+/* ======================================== */
+@media (max-width:992px){
+.header{
+padding: 30px 19px 30px 39px;
+    }
+.headerMenu a{
+    padding: 0 20px;
+
+}
+ .contact_inf img{
+     width: 32px;
+     height: 32px;
+ }
+ .contact_inf{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contactAndMenu{
+    padding-top: 40px;
+    width: 62.61%;
+
+}
+.footerMenu{
+    width: 100%;
+}
+.sns{
+width: 15.625%;
+padding-top: 40px;
+}
+.sns img{
+    width: 24px;
+    height: 24px;
+}
+.footerLogo{
+    display: none;
+}
+.service_content{
+    width: 100%;
+}
+.service_content p{
+    width: 46.66%;
+}
+.service_law{
+    width: 21.74%;
+}
+/* ----------------------*/
+.h2{
+    font-size: 32px;
+    line-height: 48px;
+    padding: 40px 0 32px;
+}
+
+/* --------------banner */
+
+.banner{
+    background: url(/img/banner-sm.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slogan{
+    font-size: 20px;
+    line-height: 30px;
+}
+.slogan p:nth-child(2){
+    font-size: 48px;
+    line-height: 72px;
+}
+/* -----------------優點 */
+.advantage{
+    padding: 0 85px;
+}
+.advantageList li{
+    width: 39.7%;
+    margin-bottom: 40px;
+}
+.advantageList h3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.advantageImg img{
+    width: 80px;
+}
+.advantageImg{
+    height: 80px;
+    margin-bottom: 16px;
+    
+}
+/* 經典系列鏡框 */
+.classical_glass{
+    padding-left: 39px;
+    padding-right: 39px;
+}
+.classicalTemple{
+    justify-content: flex-start;
+    margin-bottom: 8px;
+    font-size: 28px;   
+    line-height: 42px;
+}
+.classical-img{
+    max-width: 56.52%;
+    
+}
+.classicalTemple:nth-child(2){
+    flex-direction: row;
+}
+.classical_word{
+    margin-left: 30px;
+}
+.classical_word h3{
+    margin-left: 8px;
+}
+.classical_word img{
+    max-width: 32px;
+
+}
+/* 聯名設計鏡框 */
+.cowork{
+    height: 437px;
+}
+.coworkContent_left,.coworkContent_right{
+    height: 280px;
+}
+.coworkContent p{ 
+    font-size: 32px;
+    line-height: 25px;
+}
+/* 顧客推薦 */
+.customer_recommand{
+    padding-left: 39px;
+    padding-right: 39px;
+}
+.recommand-mb{
+    margin-bottom: 52px;
+}
+.recommand li{
+    width: 47.83%;
+    margin-bottom: 28px;
+}
+.recommand li img{
+    width: 100%;
+}
+.recommand_p{
+    border: 1px solid #DEE2E6;
+    padding: 14px;
+}
+.recommand_p h3{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+.recommand_p :nth-child(2){
+    margin-bottom: 10px;
+   
+}
+.recommand_p :last-child{
+    color: #707070;
+    font-size: 14px;
+    line-height: 21px;
+}
+/* 聯絡我們 */
+.contactUs{
+    padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.contactUs p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    
+
+}
+.contactUs_form input{
+    margin-bottom: 8px;
+    
+}
+.input_h{
+    height: 36px;
+}
+.contactUs_form textarea{
+    height: 100px;
+    margin-bottom: 8px;
+
+}
+.contactUs_form span{
+    margin-top: 20px;
+}
+.contactUs_form span input{
+    width: 46.66%;
+    height: 36px;
+}
+
+}
+/* ============================================= */
+@media (max-width:767px){
+.header{
+    padding: 0;
+    flex-direction: column;
+}
+.logo{
+    padding: 10px 0;
+    
+}
+.logo a{
+    width: 48px;
+    height: 29px;
+}
+.headerMenu li{
+    width: 50%;
+}
+.headerMenu  a{
+    width: 100%;
+    display: block;
+
+}
+.headerMenu a:hover{
+    color: #AA0601;
+    background: white;
+}
+.headerMenu{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.headerMenu li{
+    border: 1px solid white;
+    display: block;
+}
+
+.contact_inf{
+    font-size: 16px;
+}
+.contact_inf li{
+    margin-bottom: 8px;
+}
+.contact_inf img{
+    width: 20px;
+    height: 20px;
+}
+.contactAndMenu{
+    padding-top: 24px;
+}
+.footer{
+    padding: 0 15px;
+}
+.sns {
+    width: 34.83%;
+    padding-top: 24px;
+}
+.footerMenu{
+    display: none;
+}
+.servcice{
+    padding-top: 18px;
+}
+.service{
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 18px 0 21px;
+}
+.service_content{
+    flex-wrap: wrap;
+}
+.service_content p{
+    margin-bottom: 7px;
+}
+.service_law,.service_content p{
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 21px;
+}
+.service_law li{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+}
+.footerLogo{
+  
+    margin: 0;
+    display: block;
+    width: 46px;
+}
+/* ------------------------------ */
+.h2{
+    font-size: 24px;
+    line-height: 48px;
+    padding: 32px 0 20px;
+    width: 100%;
+}
+.twoside-padding{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* --------------banner */
+.banner{
+    padding-bottom: 72px;
+    height: 394px;
+}
+.slogan{
+    font-size: 16px;
+    line-height: 30px;
+    height: 394px;
+}
+.slogan p:nth-child(2){
+    font-size: 32px;
+    line-height: 72px;
+}
+/* -----------------優點 */
+.advantage{
+    padding-bottom: 12px;
+}
+.advantageList {
+    justify-content: center;
+}
+.advantageList li{
+    width: 63.2%;
+}
+/* 經典系列鏡框 */
+.classical_glass{
+    padding: 0 15px;
+    margin-bottom: 24px;
+}
+.classical_glass img{
+    display: none;
+}
+.classical_glass li{
+    width: 100%;
+    height: 200px;
+}
+.classical_glass li:nth-child(1){
+    background: url(/img/product-1.png);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.classical_glass li:nth-child(2){
+    background: url(/img/product-2.png);
+    background-size: cover;
+    background-position: center;
+
+    
+    
+}
+.classical_glass li:nth-child(3){
+    background: url(/img/product-3.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.classicalTemple{
+    justify-content: center;
+    color: white;
+}
+.classical_word{
+    position: relative;
+}
+.classical_glass li:nth-child(1) h3::before{
+    content:'' ;
+    position: absolute;
+    color:none;
+   background: url(/img/icon-diamond-white.svg) no-repeat;
+   background-position: cover;
+   width: 32px;
+   height: 25.16px;
+   top: 10px;
+   left: -32px;
+   
+}
+.classical_glass li:nth-child(2) h3::before{
+    content:'' ;
+    position: absolute;
+    color:none;
+   background: url(/img/icon-sun-white.svg) no-repeat;
+   background-position: cover;
+   width: 32px;
+   height: 32px;
+   top: 3px;
+   left: -32px;
+   
+}
+.classical_glass li:nth-child(3) h3::before{
+    content:'' ;
+    position: absolute;
+    color:none;
+   background: url(/img/icon-thunder-white.svg) no-repeat;
+   background-position: cover;
+   width: 23px;
+   height: 32px;
+   top: 3px;
+   left: -23px; 
+}
+/* 聯名設計鏡框 */
+.cowork{
+    height: 696px;
+    padding-bottom: 16px;
+}
+.coworkContent_left,.coworkContent_right{
+    height: 284px;
+}
+.coworkContent{
+    flex-wrap: wrap;
+}
+.coworkContent li{
+    width: 100%;
+    margin-bottom: 16px;
+
+}
+/* 顧客推薦 */
+.customer_recommand{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 16px;
+}
+.recommand li{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.recommand_p h3{
+    margin-bottom: 16px;
+}
+.recommand_p :nth-child(2){
+    margin-bottom: 16px;
+}
+/* 聯絡我們 */
+.contactUs{
+    padding: 0 15px 32px;
+}
+.contactUs p{
+    width: 100%;
+    margin-bottom: 8px;
+    
+
+}
+.contactUs_form{
+    width: 100%;
+
+}
+.contactUs_form textarea{
+    height: 100px;
+    margin-bottom: 8px;
+
+}
+.contactUs_form span{
+    margin-top: 24px;
+}
+.contactUs_form span input{
+    width: 47.82%;
+}
+
+}
