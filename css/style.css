@@ -125,7 +125,7 @@ a{
 /* ===================================================*/
 /* header */
 .logo a{
-    background: url(/img/logo.png) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     width: 80px;
     height: 49px;
     background-size: contain;
@@ -157,7 +157,7 @@ a{
 
 /* banner */
 .banner{
-    background: url(/img/banner.png) no-repeat;
+    background: url(../img/banner.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 840px;
@@ -221,7 +221,7 @@ a{
 }
 /* 聯名設計鏡框 */
 .cowork{
-    background: url(/img/bg.png) no-repeat;
+    background: url(../img/bg.png) no-repeat;
     background-position: center;
     background-size: cover;
     height: 743px;
@@ -232,13 +232,13 @@ a{
     height: 472px;
 }
 .coworkContent_left{
-    background: url(/img/product-8.png)  no-repeat;
+    background: url(../img/product-8.png)  no-repeat;
     background-position: center;
     background-size: cover;
 
 }
 .coworkContent_right{
-    background: url(/img/product-9.png)  no-repeat;
+    background: url(../img/product-9.png)  no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -439,7 +439,7 @@ padding-top: 40px;
 /* --------------banner */
 
 .banner{
-    background: url(/img/banner-sm.png) no-repeat;
+    background: url(../img/banner-sm.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -715,14 +715,14 @@ padding-top: 40px;
     height: 200px;
 }
 .classical_glass li:nth-child(1){
-    background: url(/img/product-1.png);
+    background: url(../img/product-1.png);
     background-size: cover;
     background-position: center;
 
     
 }
 .classical_glass li:nth-child(2){
-    background: url(/img/product-2.png);
+    background: url(../img/product-2.png);
     background-size: cover;
     background-position: center;
 
@@ -730,7 +730,7 @@ padding-top: 40px;
     
 }
 .classical_glass li:nth-child(3){
-    background: url(/img/product-3.png);
+    background: url(../img/product-3.png);
     background-size: cover;
     background-position: center;
     
@@ -746,7 +746,7 @@ padding-top: 40px;
     content:'' ;
     position: absolute;
     color:none;
-   background: url(/img/icon-diamond-white.svg) no-repeat;
+   background: url(../img/icon-diamond-white.svg) no-repeat;
    background-position: cover;
    width: 32px;
    height: 25.16px;
@@ -758,7 +758,7 @@ padding-top: 40px;
     content:'' ;
     position: absolute;
     color:none;
-   background: url(/img/icon-sun-white.svg) no-repeat;
+   background: url(../img/icon-sun-white.svg) no-repeat;
    background-position: cover;
    width: 32px;
    height: 32px;
@@ -770,7 +770,7 @@ padding-top: 40px;
     content:'' ;
     position: absolute;
     color:none;
-   background: url(/img/icon-thunder-white.svg) no-repeat;
+   background: url(../img/icon-thunder-white.svg) no-repeat;
    background-position: cover;
    width: 23px;
    height: 32px;
